@@ -10,6 +10,6 @@ session.setAttribute("myObject", myObject);
  // Object aus Session holen
 String sessionObject = (String) session.getAttribute("myObject");
 %>
-<h3>Session =<% sessionObject.toString() %>
+<h3>Session =<% sessionObject.toString(); %>
 </body>
 </html>
